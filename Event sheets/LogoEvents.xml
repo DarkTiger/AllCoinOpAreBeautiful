@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>LogoEvents</name>
+    <events>
+        <event-block sid="935428659835760">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="199691702304816" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="881819073294033" type="Audio">
+                    <param id="0" name="Audio file">Intro (NO Loop)</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;intro&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="338448708643295" type="System">
+                    <param id="0" name="Seconds">5</param>
+                </action>
+                <action id="-43" name="Go to next/previous layout" sid="206603079924723" type="System">
+                    <param id="0" name="Which">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="169917315277154">
+            <conditions>
+                <condition id="1" name="On any click" sid="113131006486856" type="Mouse" />
+            </conditions>
+            <actions>
+                <action id="-43" name="Go to next/previous layout" sid="138788326978483" type="System">
+                    <param id="0" name="Which">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="210174724910263">
+            <conditions>
+                <condition id="0" name="On ended" sid="301989856173366" type="Audio">
+                    <param id="0" name="Tag">&quot;intro&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="717901655043800" type="Audio">
+                    <param id="0" name="Audio file">Tema (Loopabile)</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;loop&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

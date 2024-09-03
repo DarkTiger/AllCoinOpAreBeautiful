@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout active="1" order="0">Game</layout>
+        <layout order="2">Menu</layout>
+        <layout order="4">Logo</layout>
+        <layout order="6">StoryCutscene</layout>
+        <event-sheet order="1">GameEvents</event-sheet>
+        <event-sheet order="3">MenuEvents</event-sheet>
+        <event-sheet order="5">LogoEvents</event-sheet>
+        <event-sheet order="7">StoryCutscene</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/Rect1/" />
+        <folder expanded="1" path="animation-folder/Rect2/" />
+        <folder expanded="1" path="animation-folder/Arcade/" />
+        <folder expanded="1" path="animation-folder/Arcade/Arcade1/" />
+        <folder expanded="1" path="animation-folder/Arcade/Arcade2/" />
+        <folder expanded="1" path="animation-folder/Arcade/Arcade3/" />
+        <folder expanded="1" path="animation-folder/Arcade/Arcade4/" />
+        <folder expanded="1" path="animation-folder/Arcade/Arcade5/" />
+        <folder expanded="1" path="animation-folder/Arcade/Arcade6/" />
+        <folder expanded="1" path="animation-folder/Icon/" />
+        <folder expanded="1" path="animation-folder/Kid/" />
+        <folder expanded="1" path="animation-folder/Kid/Kid1/" />
+        <folder expanded="1" path="animation-folder/Kid/Kid2/" />
+        <folder expanded="1" path="animation-folder/Kid/Kid3/" />
+        <folder expanded="1" path="animation-folder/Bullet/" />
+        <folder expanded="1" path="animation-folder/Bullet/Bullet1/" />
+        <folder expanded="1" path="animation-folder/Bullet/Bullet2/" />
+        <folder expanded="1" path="animation-folder/Bullet/Bullet3/" />
+        <folder expanded="1" path="animation-folder/Bullet/Bullet4/" />
+        <folder expanded="1" path="animation-folder/Bullet/Bullet5/" />
+        <folder expanded="1" path="animation-folder/Bullet/Bullet6/" />
+        <folder expanded="1" path="animation-folder/SpawnManager/" />
+        <folder expanded="1" path="animation-folder/GameManager/" />
+        <folder expanded="1" path="animation-folder/Explosion/" />
+        <folder expanded="1" path="animation-folder/Hook/" />
+        <folder expanded="1" path="animation-folder/Cutscene/" />
+        <folder expanded="1" path="animation-folder/Guide/" />
+        <folder expanded="1" path="animation-folder/Logo/" />
+        <folder expanded="1" path="animation-folder/Credits/" />
+        <folder expanded="1" path="animation-folder/Rules/" />
+        <folder expanded="1" path="animation-folder/Noi/" />
+        <folder expanded="1" path="animation-folder/ArcadeGuide/" />
+        <folder expanded="1" path="animation-folder/Letsgo/" />
+        <folder expanded="1" path="animation-folder/Play/" />
+        <folder expanded="1" path="animation-folder/Back/" />
+        <folder expanded="1" path="animation-folder/btnMenu/" />
+        <folder expanded="1" path="animation-folder/btnNo/" />
+        <folder expanded="1" path="animation-folder/ExitMessage/" />
+        <folder expanded="1" path="animation-folder/btnYes/" />
+        <folder expanded="1" path="animation-folder/btnRestartLevel/" />
+        <folder expanded="1" path="animation-folder/Coin/" />
+        <folder expanded="1" path="animation-folder/CoinsBucket/" />
+        <folder expanded="1" path="animation-folder/CoinsGroup/" />
+        <folder expanded="1" path="animation-folder/CursorNormal/" />
+        <folder expanded="1" path="animation-folder/CursorGrab/" />
+        <folder expanded="1" path="animation-folder/CoinSymbol/" />
+        <folder expanded="1" path="animation-folder/TextBackground/" />
+        <folder expanded="1" path="animation-folder/BottoneBAmbiniCheGiocano/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/Bubble/" />
+        <folder expanded="1" path="animation-folder/Smile/" />
+        <folder expanded="1" path="animation-folder/Bonus/" />
+        <folder expanded="1" path="animation-folder/BonusBar/" />
+        <folder expanded="1" path="animation-folder/BonusBarInternal/" />
+        <folder expanded="1" path="animation-folder/StellinaAnimazioneGialla/" />
+        <folder expanded="1" path="animation-folder/SkipButton/" />
+        <folder expanded="1" path="animation-folder/BlackFade/" />
+        <folder expanded="1" path="animation-folder/UnlockedSprite/" />
+        <folder expanded="1" path="animation-folder/ButtonWinLose/" />
+        <folder expanded="1" path="animation-folder/Background/" />
+        <folder expanded="1" path="animation-folder/GameBackground/" />
+        <folder expanded="1" path="animation-folder/btnPausa/" />
+        <folder expanded="1" path="animation-folder/btnResume/" />
+        <folder expanded="1" path="animation-folder/MenuInGame/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/Avanti/" />
+    </folders-expanded>
+</c2uistate>

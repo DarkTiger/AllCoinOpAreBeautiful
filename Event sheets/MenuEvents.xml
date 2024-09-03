@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>MenuEvents</name>
+    <events>
+        <variable constant="0" name="buttonsMaxScale" sid="411151254671387" static="0" type="number">1.075</variable>
+        <event-group description="" sid="295753178116321" title="Mouse Over Effect">
+            <sub-events>
+                <event-block sid="519148443012130">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="413024822619073" type="Mouse">
+                            <param id="0" name="Object">Play</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="624276046434898" type="Play">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="845074768755733">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="989637952208736" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="983342615159311" type="Play">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="636826123819272">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="810107967029132" type="Mouse">
+                            <param id="0" name="Object">Credits</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="710261042630871" type="Credits">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="644006265933379">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="905295895997802" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="948882368511059" type="Credits">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="393105650477908">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="576720486102687" type="Mouse">
+                            <param id="0" name="Object">Rules</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="459207540119873" type="Rules">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="585124462798534">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="998752440367896" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="240928934956775" type="Rules">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="966641969700930">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="409173586477285" type="Mouse">
+                            <param id="0" name="Object">Back</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="9" name="Set scale" sid="604316886128688" type="Back">
+                            <param id="0" name="Scale">buttonsMaxScale</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="816443922674117">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="341889678532879" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="9" name="Set scale" sid="539083772079368" type="Back">
+                            <param id="0" name="Scale">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="849819680316857">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="868129726396915" type="Mouse">
+                            <param id="0" name="Object">Letsgo</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="9" name="Set scale" sid="409050117702329" type="Letsgo">
+                            <param id="0" name="Scale">buttonsMaxScale</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="757228337952987">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="150811684741246" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="9" name="Set scale" sid="357178051567815" type="Letsgo">
+                            <param id="0" name="Scale">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="756514513928405">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="333996126544060" type="Mouse">
+                            <param id="0" name="Object">Avanti</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="9" name="Set scale" sid="608736067806143" type="Avanti">
+                            <param id="0" name="Scale">buttonsMaxScale</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="142130445937774">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="510324717136177" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="9" name="Set scale" sid="377218369227257" type="Avanti">
+                            <param id="0" name="Scale">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="210828314844763" title="Change Menu">
+            <sub-events>
+                <event-block sid="778704328475457">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="695751004873900" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-13" name="Set time scale" sid="515212067670160" type="System">
+                            <param id="0" name="Time scale">1.0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="413859581631046">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="795474862696060" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Credits</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="209890420973198" type="Function">
+                            <param id="0" name="Name">&quot;ChangeMenu&quot;</param>
+                            <param id="1" name="Parameter {n}">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="192364132263852">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="105014696262750" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Avanti</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="307755199527207">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="622352115221260" type="Guide">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="Number">3</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="928364560111712" type="Guide">
+                                    <param id="0" name="Frame number">Guide.AnimationFrame+1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="480742080143607">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="291900877210459" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="980237989212416" type="Guide">
+                                    <param id="0" name="Frame number">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="322890886509150">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="562543490692481" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Rules</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="721488440841659" type="Function">
+                            <param id="0" name="Name">&quot;ChangeMenu&quot;</param>
+                            <param id="1" name="Parameter {n}">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="550665845593755">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="795952758904135" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Back</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-26" name="Restart layout" sid="786557494585392" type="System" />
+                    </actions>
+                </event-block>
+                <event-block sid="120698135938069">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="723857511611617" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Play</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="374538607288329" type="Function">
+                            <param id="0" name="Name">&quot;ChangeMenu&quot;</param>
+                            <param id="1" name="Parameter {n}">3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="286240517832827">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="209314045345660" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Letsgo</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="639037944890971" type="Letsgo">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="497296535051524" type="System">
+                            <param id="0" name="Variable">levelIndex</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="432087671201777" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="784855498182173" type="System">
+                            <param id="0" name="Layout">Game</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="937024724843949">
+            <conditions>
+                <condition id="0" name="On function" sid="547011711543510" type="Function">
+                    <param id="0" name="Name">&quot;ChangeMenu&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="292870053725032" type="Credits" />
+                <action id="-9" name="Destroy" sid="449666693405957" type="Rules" />
+                <action id="-9" name="Destroy" sid="728278521185755" type="Play" />
+                <action id="-9" name="Destroy" sid="995696076877033" type="Logo" />
+                <action id="-9" name="Destroy" sid="101095407384332" type="Avanti" />
+                <action id="-3" name="Create object" sid="648960260312334" type="System">
+                    <param id="0" name="Object to create">Back</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">150</param>
+                    <param id="3" name="Y">100</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="729352340623675">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="352159376229831" type="Function">
+                            <param id="0" name="Index">0</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="770309694297466" type="System">
+                            <param id="0" name="Object to create">Noi</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">LayoutWidth/2</param>
+                            <param id="3" name="Y">LayoutHeight/2</param>
+                        </action>
+                        <action id="-24" name="Move to top" sid="809136239113162" type="Back" />
+                        <action id="-3" name="Set position" sid="681287285236775" type="CreditText">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="883159303612475">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="366685607763859" type="Function">
+                            <param id="0" name="Index">0</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="405803840246702" type="System">
+                            <param id="0" name="Object to create">Guide</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">LayoutWidth/2</param>
+                            <param id="3" name="Y">LayoutHeight/2</param>
+                        </action>
+                        <action id="-24" name="Move to top" sid="666801454883299" type="Back" />
+                        <action id="-3" name="Create object" sid="932012361835688" type="System">
+                            <param id="0" name="Object to create">Avanti</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">400</param>
+                            <param id="3" name="Y">100</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="698158506144427">
+                    <conditions>
+                        <condition id="1" name="Compare parameter" sid="983470672135849" type="Function">
+                            <param id="0" name="Index">0</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="323645271144487" type="System">
+                            <param id="0" name="Object to create">ArcadeGuide</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">LayoutWidth/2</param>
+                            <param id="3" name="Y">LayoutHeight/2</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="154397184353795" type="System">
+                            <param id="0" name="Object to create">Letsgo</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">LayoutWidth/2</param>
+                            <param id="3" name="Y">LayoutHeight-100</param>
+                        </action>
+                        <action id="-24" name="Move to top" sid="599059817764552" type="Back" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="235463027762463">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="745823411347484" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="859276552458117" type="CreditText">
+                    <param id="0" name="Text">&quot;DBGA 13/06/2017:&#x0D;&#x0A;&#x0D;&#x0A;PROGRAMMER:&#x0D;&#x0A;Daniele Franceschini&#x0D;&#x0A;Gabriele Dolcemascolo&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;DESIGNER:&#x0D;&#x0A;Giovanna Perdomini&#x0D;&#x0A;Samuele Chionetti&#x0D;&#x0A;Manuele Puliga&#x0D;&#x0A;Pietro Costantini&#x0D;&#x0A;&#x0D;&#x0A;ARTIST:&#x0D;&#x0A;Andrea Memeo&#x0D;&#x0A;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="962110447048953">
+                    <conditions />
+                    <actions>
+                        <action id="6" name="Stop" sid="691935211558664" type="Audio">
+                            <param id="0" name="Tag">&quot;lv1&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="466689438599212" type="Audio">
+                            <param id="0" name="Tag">&quot;lv2&quot;</param>
+                        </action>
+                        <action id="6" name="Stop" sid="377506695835355" type="Audio">
+                            <param id="0" name="Tag">&quot;lv3&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="242274049003344">
+                    <conditions>
+                        <condition id="5" inverted="1" name="Is tag playing" sid="620795844776189" type="Audio">
+                            <param id="0" name="Tag">&quot;loop&quot;</param>
+                        </condition>
+                        <condition id="5" inverted="1" name="Is tag playing" sid="176535792509953" type="Audio">
+                            <param id="0" name="Tag">&quot;intro&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="407609636667791" type="Audio">
+                            <param id="0" name="Audio file">Intro (NO Loop)</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;intro&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="176075170424966">
+            <conditions>
+                <condition id="0" name="On ended" sid="181602414454222" type="Audio">
+                    <param id="0" name="Tag">&quot;intro&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="326832540585395" type="Audio">
+                    <param id="0" name="Audio file">Tema (Loopabile)</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;loop&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

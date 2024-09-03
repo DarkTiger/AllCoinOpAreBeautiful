@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>StoryCutscene</name>
+    <events>
+        <event-block sid="241832055650773">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="783812686640463" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">SkipButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-43" name="Go to next/previous layout" sid="706917429921649" type="System">
+                    <param id="0" name="Which">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="213039791098693">
+            <conditions>
+                <condition id="4" name="On finished" sid="346351524405878" type="Cutscene">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-43" name="Go to next/previous layout" sid="685302769951443" type="System">
+                    <param id="0" name="Which">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="785977684545859">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="895032829947250" type="Mouse">
+                    <param id="0" name="Object">SkipButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="155570629999656" type="SkipButton">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="142214767611073">
+            <conditions>
+                <condition id="-22" name="Else" sid="591224477787602" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="648052131755779" type="SkipButton">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="423694441592970">
+            <conditions>
+                <condition id="0" name="On ended" sid="341411180443350" type="Audio">
+                    <param id="0" name="Tag">&quot;intro&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="991531719773401" type="Audio">
+                    <param id="0" name="Audio file">Tema (Loopabile)</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;loop&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
